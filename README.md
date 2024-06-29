@@ -17,13 +17,18 @@ IcosaHarengon provides functionality for recording game data, including characte
 - Abstract templated objects
     - Pre-defined templates
     - Custom templating option
-- Abstract game object
 - Command/chat log
     - Interaction API
     - History record
+- Abstract game object
+    - Settings
+    - Objects
+    - Users
+    - Command/chat log
 - UI
 - Database
     - User database
+    - Asset database
     - Game database
         - Templated object database
         - History record database
