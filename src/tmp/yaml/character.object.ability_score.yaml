@@ -1,0 +1,16 @@
+---
+template:
+  metadata:
+    type: "object"
+    name: "ability_score"
+    parent: "character"
+  data:
+    integer_fields:
+      - name: "raw_score"
+      - name: "modifier"
+        value: "<% (this.raw_score - 10) // 2 %>"
+        edit: False
+    string_fields:
+      - name: "<< input.score >>"
+        on_call: "<* dice.roll()'1d20 + {this.modifier}')*>"
+        edit: False
