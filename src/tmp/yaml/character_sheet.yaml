@@ -1,0 +1,50 @@
+---
+template:
+  metadata:
+    name: "Character Sheet (Main)"
+    type: "Paper"
+  data:
+    integer_fields:
+      - name: "Life Total"
+      - name: "AC"
+        minval: 1
+      - name: "Level"
+        minval: 1
+        maxval: 20
+    float_fields:
+      - 
+    string_fields:
+      - name: "Name"
+        maxlen: 64
+      - name: "Class"
+        options: "<< game.restrictions.available.class >>"
+      - name: "Background"
+        options: "<< game.restrictions.available.background >>"
+    boolean_fields:
+      - name: "Death Saving Throw Successes"
+        count: 3
+        display: bubble
+      - name: "Death Saving Throw Failures"
+        count: 3
+        display: bubble
+    object_fields:
+      - name: "Hit Dice"
+        type: "<< character.hit_dice >>"
+    sequence_fields:
+      string_sequences:
+        - name: "Abilities"
+          count: "*"
+          display: box
+          minimize: True
+      object_sequences:
+        - name: "Actions"
+          count: "*"
+          display: line
+          type: "<< character.object.action >>"
+          edit: True
+        - name: "Skills"
+          type: "<< character.object.skill >>"
+          source: "<< character.static.skills >>"
+        - name: "Ability Scores"
+          type: "<< character.object.ability_score >>"
+          source: "<< character.static.ability_scores >>"
