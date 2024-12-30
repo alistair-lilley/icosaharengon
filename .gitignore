@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+**/__pycache__/
+*$py.class
+
+# C extensions
+*.so
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Environments
+**/.env
+**/.venv/
+
+# Data files
+data/
+
+# Testing
+testing/
+
+# Manifesto
+# PDF short document describing the project; can be found on the GitHub
+manifesto.pdf
