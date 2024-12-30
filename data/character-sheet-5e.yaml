@@ -1,0 +1,287 @@
+data:
+  acrobatics:
+    display: Acrobatics
+    on_call: 1d20 + %acrobatics.value%
+    value: null
+  alignment:
+    display: Alignment
+    on_call: null
+    value: null
+  animal_handling:
+    display: Animal Handling
+    on_call: 1d20 + %animal_handling.value%
+    value: null
+  arcana:
+    display: Arcana
+    on_call: 1d20 + %arcana.value%
+    value: null
+  armor_class:
+    display: AC
+    on_call: null
+    value: null
+  athletics:
+    display: Athletics
+    on_call: 1d20 + %athletics.value%
+    value: null
+  attack_N:
+    display: null
+    on_call: null
+    value: null
+  background:
+    display: Background
+    on_call: null
+    value: null
+  bonds:
+    display: Bonds
+    on_call: null
+    value: null
+  character_name:
+    display: Character Name
+    on_call: null
+    value: null
+  charisma:
+    display: null
+    on_call: null
+    value: null
+  charisma_modifier:
+    display: Charisma
+    on_call: null
+    value: (%charisma% - 10) // 2
+  charisma_saving_throw:
+    display: Charisma Saving Throw
+    on_call: 1d20 + %charisma_saving_throw.value%
+    value: null
+  class:
+    display: Class
+    on_call: null
+    value: null
+  constitution:
+    display: null
+    on_call: null
+    value: null
+  constitution_modifier:
+    display: Constitution
+    on_call: null
+    value: (%constitution% - 10) // 2
+  constitution_saving_throw:
+    display: Constitution Saving Throw
+    on_call: 1d20 + %constitution_saving_throw.value%
+    value: null
+  copper_pieces:
+    display: CP
+    on_call: null
+    value: null
+  current_hit_points:
+    display: Current Hit Points
+    on_call: null
+    value: null
+  death_saving_throw_failures:
+    display: Death Saving Throw Failures
+    on_call: null
+    value: null
+  death_saving_throw_successes:
+    display: Death Saving Throw Successes
+    on_call: null
+    value: null
+  death_saving_throws:
+    display: Death Saving Throws
+    on_call: 1d20
+    value: null
+  deception:
+    display: Deception
+    on_call: 1d20 + %deception.value%
+    value: null
+  dexterity:
+    display: null
+    on_call: null
+    value: null
+  dexterity_modifier:
+    display: Dexterity
+    on_call: null
+    value: (%dexterity% - 10) // 2
+  dexterity_saving_throw:
+    display: Dexterity Saving Throw
+    on_call: 1d20 + %dexterity_saving_throw.value%
+    value: null
+  electrum_pieces:
+    display: EP
+    on_call: null
+    value: null
+  equipment_N:
+    display: null
+    on_call: null
+    value: null
+  experience_points:
+    display: Experience Points
+    on_call: null
+    value: null
+  feature_trait_N:
+    display: null
+    on_call: null
+    value: null
+  flaws:
+    display: Flaws
+    on_call: null
+    value: null
+  gold_pieces:
+    display: GP
+    on_call: null
+    value: null
+  history:
+    display: History
+    on_call: 1d20 + %history.value%
+    value: null
+  hit_dice:
+    display: Hit Dice
+    on_call: null
+    value: null
+  hit_dice_total:
+    display: Total
+    on_call: null
+    value: null
+  hit_point_maximum:
+    display: Hit Point Maximum
+    on_call: null
+    value: null
+  ideals:
+    display: Ideals
+    on_call: null
+    value: null
+  initiative:
+    display: Initiative
+    on_call: null
+    value: null
+  insight:
+    display: Insight
+    on_call: 1d20 + %insight.value%
+    value: null
+  inspiration:
+    display: Inspiration
+    on_call: null
+    value: null
+  intelligence:
+    display: null
+    on_call: null
+    value: null
+  intelligence_modifier:
+    display: Intelligence
+    on_call: null
+    value: (%intelligence% - 10) // 2
+  intelligence_saving_throw:
+    display: Intelligence Saving Throw
+    on_call: 1d20 + %intelligence_saving_throw.value%
+    value: null
+  intimidation:
+    display: Intimidation
+    on_call: 1d20 + %intimidation.value%
+    value: null
+  investigation:
+    display: Investigation
+    on_call: 1d20 + %investigation.value%
+    value: null
+  level:
+    display: Level
+    on_call: null
+    value: null
+  lineage:
+    display: Lineage
+    on_call: null
+    value: null
+  medicine:
+    display: Medicine
+    on_call: 1d20 + %medicine.value%
+    value: null
+  nature:
+    display: Nature
+    on_call: 1d20 + %nature.value%
+    value: null
+  passive_perception:
+    display: Passive Perception
+    on_call: null
+    value: null
+  perception:
+    display: Perception
+    on_call: 1d20 + %perception.value%
+    value: null
+  performance:
+    display: Performance
+    on_call: 1d20 + %performance.value%
+    value: null
+  personality_traits:
+    display: Personality Traits
+    on_call: null
+    value: null
+  persuasion:
+    display: Persuasion
+    on_call: 1d20 + %persuasion.value%
+    value: null
+  platinum_pieces:
+    display: PP
+    on_call: null
+    value: null
+  player_name:
+    display: Player Name
+    on_call: null
+    value: null
+  proficiency_N:
+    display: null
+    on_call: null
+    value: null
+  proficiency_bonus:
+    display: Proficiency Bonus
+    on_call: null
+    value: null
+  religion:
+    display: Religion
+    on_call: 1d20 + %religion.value%
+    value: null
+  silver_pieces:
+    display: SP
+    on_call: null
+    value: null
+  sleight_of_hand:
+    display: Sleight Of Hand
+    on_call: 1d20 + %sleight_of_hand.value%
+    value: null
+  speed:
+    display: Speed
+    on_call: null
+    value: null
+  stealth:
+    display: Stealth
+    on_call: 1d20 + %stealth.value%
+    value: null
+  strength:
+    display: null
+    on_call: null
+    value: null
+  strength_modifier:
+    display: Strength
+    on_call: null
+    value: (%strength% - 10) // 2
+  strength_saving_throw:
+    display: Strength Saving Throw
+    on_call: 1d20 + %strength_saving_throw.value%
+    value: null
+  survival:
+    display: Survival
+    on_call: 1d20 + %survival.value%
+    value: null
+  temporary_hit_points:
+    display: Temporary Hit Points
+    on_call: null
+    value: null
+  wisdom:
+    display: null
+    on_call: null
+    value: null
+  wisdom_modifier:
+    display: Wisdom
+    on_call: null
+    value: (%wisdom% - 10) // 2
+  wisdom_saving_throw:
+    display: Wisdom Saving Throw
+    on_call: 1d20 + %wisdom_saving_throw.value%
+    value: null
+metadata:
+  name: Character Sheet
